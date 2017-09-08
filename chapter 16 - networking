@@ -8,4 +8,6 @@ traceroute - trace the path of a network packet: "traceroute slashdot.org";
 
 netstat - examine network setting and statistics: "netstat -ie"; "lo": is the loopback interface, a virtual interface that the system uses to "talk to itself"
 
+"up": indicating the network interface is enabled; a valid IP address will verify that the DHCP is working.
+
 
