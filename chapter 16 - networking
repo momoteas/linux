@@ -10,4 +10,12 @@ netstat - examine network setting and statistics: "netstat -ie"; "lo": is the lo
 
 "up": indicating the network interface is enabled; a valid IP address will verify that the DHCP(dynamic host configuration protocol) is working.
 
+ip address that end in zero(192.168.1.0) refer to networks rather than individual host, so this destination means any host on the LAN.
+
+"Gateway": is the name or IP address of the gateway (router) used to go from the current host to the destination network. An asterisk in this field indicates that no gateway is needed.
+
+"ip": The ip program is a multi-purpose network configuration tool that makes use of the full range networking features available in modern Linux kernels. It replaces the earlier and now deprecated ifconfig program.
+
+
+
 
