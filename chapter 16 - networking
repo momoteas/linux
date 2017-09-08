@@ -2,4 +2,6 @@ this chapter will cover the following: ping, traceroute, netstat, ftp, lftp, wge
 
 understanding the following terms: IP, host and domain name, URI(uniform resource identifier);
 
-examining and monitoring a network: 
+examining and monitoring a network: ping linuxcommand.org, interrupted by pressing "ctrl-c";
+
+traceroute - trace the path of a network packet: "traceroute slashdot.org", 
