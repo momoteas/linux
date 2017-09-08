@@ -16,6 +16,10 @@ ip address that end in zero(192.168.1.0) refer to networks rather than individua
 
 "ip": The ip program is a multi-purpose network configuration tool that makes use of the full range networking features available in modern Linux kernels. It replaces the earlier and now deprecated ifconfig program.
 
-Transportint files over a network:
+Transportint files over a network: "ftp fileserver", lftp - a better ftp (web and ftp site);
+
+Secure communication with remote hosts: rlogin, telnet, ssh(secure shell),
+
+SSH: consist two parts, an SSH server run on the remote host, listening for incoming connection on port 22.
 
 
