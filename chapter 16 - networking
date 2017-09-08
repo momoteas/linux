@@ -20,6 +20,8 @@ Transportint files over a network: "ftp fileserver", lftp - a better ftp (web an
 
 Secure communication with remote hosts: rlogin, telnet, ssh(secure shell),
 
-SSH: consist two parts, an SSH server run on the remote host, listening for incoming connection on port 22.
+SSH: consist two parts, an SSH server run on the remote host, listening for incoming connection on port 22. we usethe ssh client program like so: "ssh remote-sys(remote host)".
+
+
 
 
