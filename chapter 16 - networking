@@ -4,4 +4,8 @@ understanding the following terms: IP, host and domain name, URI(uniform resourc
 
 examining and monitoring a network: ping linuxcommand.org, interrupted by pressing "ctrl-c";
 
-traceroute - trace the path of a network packet: "traceroute slashdot.org", 
+traceroute - trace the path of a network packet: "traceroute slashdot.org";
+
+netstat - examine network setting and statistics: "netstat -ie"; "lo": is the loopback interface, a virtual interface that the system uses to "talk to itself"
+
+
