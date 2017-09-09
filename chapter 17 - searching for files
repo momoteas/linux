@@ -1,0 +1,10 @@
+the commonds: locate, find, xargs, touch, stat;
+
+locate - find files the easy way
+
+locate - find files by name. the locate program performs a rapid database search of pathname, and then outputs every name that matches a given substring, such as: "locate bin/zip"
+
+updatedb: running the updatedb program manually by becoming the superuser and running updatedb at the prompt.
+
+
+
