@@ -42,7 +42,11 @@ xargs: it accepts input from standard input and convert it into an argument list
 
 a null character as argument separator, is defined in ASCII as character represented by the number zero. "-print0" in "find" command, and the xargs command has the "--null" option.
 
-a return to the playground: 
+a return to the playground: exercise...
+
+note: "-exec command {} ;": "{ }" is a symbolic representation of the current pathname, and the semicolon is a required delimiter indicating the end of the command.
+
+Options: are used to control the scope of a "find" search. "-depth, -maxdepth levels, -mindepth levels, -mount, noleaf"
 
 
 
