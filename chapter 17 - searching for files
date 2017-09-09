@@ -17,3 +17,6 @@ tests: for example: "find ~ -type d | wc -l". find file types: "b, c, d, f, l".
 operators: even with all tests that find provides, we may still need a better way to describle the logical relationships between the tests.
 
 find logical operators: -and, -or, -not, ()
+
+"()": note that since the parentheses characters have special meaning to the shell, they must be quoted when using them on the command line to allow them to be passed as arguments to find. Usually the backslash character is used to escape them.
+
