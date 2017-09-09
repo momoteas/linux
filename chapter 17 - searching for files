@@ -20,3 +20,16 @@ find logical operators: -and, -or, -not, ()
 
 "()": note that since the parentheses characters have special meaning to the shell, they must be quoted when using them on the command line to allow them to be passed as arguments to find. Usually the backslash character is used to escape them.
 
+predefined actions: 
+
+haveing a list of results from our find command is useful, but what we really want to do is act on the items on the list. fortunately, "find" allow actions to be performed based on the search results.
+
+predefined actions: -delete, -ls, -print, -quit.
+
+remember, there is, by default, an implied "-and" relatonship between each test and action.
+
+user-predefined actions: 
+
+in addition to the predefined actions, we can also invoke arbitrary commands. the tradional way of doing this is with the "-exec" action. this action works like this: "-exec command {};".
+
+
