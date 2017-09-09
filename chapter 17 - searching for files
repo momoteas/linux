@@ -33,3 +33,20 @@ user-predefined actions:
 in addition to the predefined actions, we can also invoke arbitrary commands. the tradional way of doing this is with the "-exec" action. this action works like this: "-exec command {};".
 
 It’s also possible to execute a user-defined action interactively. By using the "-ok" action in place of "-exec", the user is prompted before execution of each specified command:
+
+improving efficiency: 
+
+two way: xargs and using a new feature in "find" itself. by changing the trailing semicolon character to a plus sign.
+
+xargs: it accepts input from standard input and convert it into an argument list for a specified command. for example: "find ~ -type f -name 'foo*' -print | xargs ls -l"
+
+a null character as argument separator, is defined in ASCII as character represented by the number zero. "-print0" in "find" command, and the xargs command has the "--null" option.
+
+a return to the playground: 
+
+
+
+
+
+
+
