@@ -32,4 +32,4 @@ user-predefined actions:
 
 in addition to the predefined actions, we can also invoke arbitrary commands. the tradional way of doing this is with the "-exec" action. this action works like this: "-exec command {};".
 
-
+It’s also possible to execute a user-defined action interactively. By using the "-ok" action in place of "-exec", the user is prompted before execution of each specified command:
