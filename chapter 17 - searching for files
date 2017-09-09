@@ -1,10 +1,15 @@
 the commonds: locate, find, xargs, touch, stat;
 
-locate - find files the easy way
+locate - find files the easy way:
 
 locate - find files by name. the locate program performs a rapid database search of pathname, and then outputs every name that matches a given substring, such as: "locate bin/zip"
 
 updatedb: running the updatedb program manually by becoming the superuser and running updatedb at the prompt.
 
+find - find files the hard way: 
 
+the find program searches a given directory (and its subdirectory) for files based on a variety of attributes.
 
+the beauty of find is that it can be used to identify files that meet specific criteria. it does this through the application of options, tests, and actions.
+
+tests: for example: "find ~ -type d | wc -l". find file types: "b, c, d, f, l".
