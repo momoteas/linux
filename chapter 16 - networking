@@ -22,8 +22,8 @@ Secure communication with remote hosts: rlogin, telnet, ssh(secure shell),
 
 SSH: consist two parts, an SSH server run on the remote host, listening for incoming connection on port 22. we usethe ssh client program like so: "ssh remote-sys(remote host)"; besides opening a shell session on a remote system, ssh allows us to execute a single command.
 
+scp and sftp(file copying program): scp: as with scp, you may apply a username to the begining of remote host's name if the desired remote host account name does not match that of the local system, for example: "scp bob@remote-sys : document.txt"
 
+sftp: has an important advantage over conventional ftp in that it does not require an FTP server to be running on the remote host, it only requires the SSH server.
 
-
-
-
+reference: www.tldp.org (The Linux Document Project)
