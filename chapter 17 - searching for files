@@ -13,3 +13,7 @@ the find program searches a given directory (and its subdirectory) for files bas
 the beauty of find is that it can be used to identify files that meet specific criteria. it does this through the application of options, tests, and actions.
 
 tests: for example: "find ~ -type d | wc -l". find file types: "b, c, d, f, l".
+
+operators: even with all tests that find provides, we may still need a better way to describle the logical relationships between the tests.
+
+find logical operators: -and, -or, -not, ()
