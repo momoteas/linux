@@ -18,3 +18,12 @@ it is always a goog idea to carefully read the README and INSTALL files before a
 
 GPL: general public license
 
+Building the program: 
+
+most program build with a simple, two-command sequence: "./configure", "make";
+
+configure: the configure program is a shell script which is supplied with source tree. its job is to analyze the "build" environment.
+
+Installing the program: 
+
+Well-packaged source code will often include a special make target called install. This target will install the final product in a system directory for use. Usually, this directory is /usr/local/bin,
