@@ -13,3 +13,8 @@ Obtaining the source code:
 tar: ome projects will not create the directory, but instead will deliver the files directly into the current directory. This will make a mess in your otherwise well-organized src directory. To avoid this, use the following command to examine the contents of the tar file: "tar tzvf tarfile | head"
 
 Examine the source tree: 
+
+it is always a goog idea to carefully read the README and INSTALL files before attempting to build the program.
+
+GPL: general public license
+
