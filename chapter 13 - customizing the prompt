@@ -1,0 +1,7 @@
+Anatomy of a prompt: [me@linuxbox ~]$, it contains our username, hostname and current working directory. The prompt is defined by an environment variable named PS1 (short for “prompt string one”).
+
+Escape codes used in shell prompt: 
+
+Tring some alternative prompt designs: 
+
+Adding color: 
