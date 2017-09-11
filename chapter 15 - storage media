@@ -1,3 +1,13 @@
 in this chapter, we will look at the following commands: mount, umount, fsck, fdisk, mkfs, fdformat, dd, genisoimage(mkisofs), wodim(cdrecord), md5sum;
 
-/etc/fstab fielsd: Device, Mount point, File system type, 
+/etc/fstab fielsd: Device, Mount point, File system type, options, frequency, order.
+
+Viewing a list of mounted file systems: 
+
+Why unmounting is important?
+
+Determining device names:
+
+Linux storage device names: /dev/fd*, /dev/hd*, /dev/lp*, /dev/sd*, /dev/sr*; 
+
+scsi: small computer system interface
