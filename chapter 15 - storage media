@@ -1,0 +1,3 @@
+in this chapter, we will look at the following commands: mount, umount, fsck, fdisk, mkfs, fdformat, dd, genisoimage(mkisofs), wodim(cdrecord), md5sum;
+
+/etc/fstab fielsd: Device, Mount point, File system type, 
