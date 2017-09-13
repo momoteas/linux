@@ -1,0 +1,5 @@
+How to write a shell script: write a script; make the script executable; put the script somewhere the shell can find it;
+
+Script file format: #!/bin/bash
+                    # This is our first script.
+                    echo 'Hello World!'
