@@ -26,5 +26,7 @@ Configuring vim for scripting writing:
                                       ":set hlsearch": turns on the option to highlight search results.
                                       ":set tabstop=4": sets the number of columns occupied by a tab character.
                                       ":set autoindent": turns on the “auto indent” feature.
+                                      These changes can be made permanent by adding these commands (without theleading colon characters) to your ~/.vimrc file.
                                       
+                                
      
