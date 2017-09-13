@@ -3,3 +3,7 @@ How to write a shell script: write a script; make the script executable; put the
 Script file format: #!/bin/bash
                     # This is our first script.
                     echo 'Hello World!'
+
+#!: The shebang is used to tell thesystem the name of the interpreter that should be used to execute the script that follows.Every shell script should include this as its first line.
+
+Executable permissions: chmod;
