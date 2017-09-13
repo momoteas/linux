@@ -7,3 +7,24 @@ Script file format: #!/bin/bash
 #!: The shebang is used to tell thesystem the name of the interpreter that should be used to execute the script that follows.Every shell script should include this as its first line.
 
 Executable permissions: chmod;
+
+Script file location: In order for the script to run, we must precede the script name with an explicit pah: "./filename"
+
+"PATH" variable: located in /bin, The PATH variable contains a colon-separated list ofdirectories to be searched. 
+
+the dot(.) command: The dot (.) command is a synonym for the source command, a shell builtin whichreads a specified file of shell commands and treats it like input from the keyboard.
+                    for example: "[me@linuxbox ~]$ . .bashrc"
+                    
+Good location for scripts: The ~/bin directory is a good place to put scripts intended for personal use. If we writea script that everyone on a system is allowed to use, the traditional location is/usr/local/bin
+
+Long Option Names: "[me@linuxbox ~]$ ls -ad" equal to "[me@linuxbox ~]$ ls --all --directory";
+
+line-continuation: "\"
+
+Configuring vim for scripting writing: 
+                                      ":syntax on": turns on syntax highlighting.
+                                      ":set hlsearch": turns on the option to highlight search results.
+                                      ":set tabstop=4": sets the number of columns occupied by a tab character.
+                                      ":set autoindent": turns on the “auto indent” feature.
+                                      
+     
