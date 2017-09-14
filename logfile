@@ -11,3 +11,7 @@ view logfile: tail -f
 facility: define the source of log information, in order to classify log info. type: kernal, user, mail, daemon, auth, syslog...
 
 priority/severity level: emergency, alert, critical, error, warning, notice, informational, debug.
+
+configuring rsyslog: "facility.priority        log_location"
+
+send and save logfile into a internet server: *.*  @@192.168.1.1 (TCP protocol)
