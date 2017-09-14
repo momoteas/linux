@@ -1,0 +1,13 @@
+linux will save the following type log information: kernal, service, applications;
+
+rsyslog: service rsyslog status;
+
+rsyslog configuration file: /etc/rsyslog.conf;
+
+logfile location: /var/log
+
+view logfile: tail -f 
+
+facility: define the source of log information, in order to classify log info. type: kernal, user, mail, daemon, auth, syslog...
+
+priority/severity level: emergency, alert, critical, error, warning, notice, informational, debug.
