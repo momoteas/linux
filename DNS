@@ -1,0 +1,14 @@
+domain name: host name + domain name + type: such as: www.linuxcast.net;
+
+DNS: domain name system;
+
+mapping domain name and IP: www.linuxcast.net   <--->    61.1.1.1
+
+resolve domain name: gethostbyname();
+
+resolving by the following way: fiel(/etc/hosts, /etc/networks), DNS, NIS;
+
+control the enquiry order by configuring: /etc/nsswitch.conf: "hosts: file dns"
+
+command for enquiry DNS: "host, dig": dig www.linuxcast.net
+
