@@ -7,3 +7,8 @@ useradd: 创建新用户； passwd user_name: 修改密码；
 家目录配置文件：/etc/skel;
 
 usermod: 修改用户信息；
+
+删除用户： userdel;
+
+组： groupadd; /etc/group; id; groupdel; groupmod
+
