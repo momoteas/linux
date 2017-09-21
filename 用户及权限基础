@@ -1,0 +1,9 @@
+相关文件： /etc/passwd; /etc/shadow; /etc/group;
+
+查看登陆的用户: whoami, who, w;
+
+useradd: 创建新用户； passwd user_name: 修改密码；
+
+家目录配置文件：/etc/skel;
+
+usermod: 修改用户信息；
