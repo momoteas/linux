@@ -1,0 +1,27 @@
+fdisk:  基于MBR的分区工具；
+        ls /dev：查看已挂载的磁盘；
+        fdisk -l: 显示已安装的磁盘和硬盘信息；
+        fdisk /dev/sd*: 对相关硬盘进行分区，并制定分区的类型（partision's id), "w"保存并退出；
+        partprobe: 探测系统内核，查看/dev下是否已创建了相关分区；
+        
+mke2fs: mke2fs -t ext4 /dev/sd*; 制定分区的文件类型，如ntfs, ext3, ext4, xfs;
+
+dumpe2fs: dumpe2fs /dev/sd*; 显示分区的详细信息；
+
+mount: 挂载；
+
+umount: 卸载；
+
+e2labe: e2label /dev/sd* linuxcast; 指定分区标签；
+
+fsck: 修复分区，但前提是必须卸载；
+
+lsof: list opened files; 
+
+fuser: 
+
+自动挂载配置文件：/etc/fstab; 配置完成后，reboot重启后自动挂载；
+
+通过e2label制定的卷标可以代替设备路径；
+
+        
