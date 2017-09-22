@@ -6,4 +6,35 @@ ARP：address resolution protocol，地址解析协议；它是同网段的通�
 
 域名：由三部分构成，以 “.” 分隔： 类型(com; net; org)，域名，主机名(www; mail; ftp)；
 
+DNS服务器：用于IP地址和域名之间的转换；
+
+基本网络参数：
+        配置局域网内通信的计算机： IP地址，子网掩码；
+        配置跨网段通信的计算机：   IP地址，子网掩码，网关；
+        配置可上网的计算机：      IP地址，子网掩码，网关，DNS；
+        
+网络基本配置：
+        1. 以太网接口：eth0, eth1......;
+        2. 通过lspci查看网卡硬件信息；
+        3. ifconfig查看接口信息； -a: 查看所有，eth0查看特定；
+        4. lo: 环回接口；
+        5. ifup, ifdown启用，禁用一个接口；
+        6. 使用setup命令可以配置网络信息；
+        7. centos7使用nmcli命令配置网络信息；
+        8. 网络配置相关文件：
+                  网卡配置文件： /etc/sysconfig/network-scripts/ifcfg-eth0;
+                  DNS配置文件： /etc/resolv.conf;
+                  主机名配置文件： /etc/sysconfig/network;可以修改主机名；
+                  静态主机名配置文件： /etc/hosts
+        9. 网络测试命令：
+                  网络连通性测试： ping；
+                  测试DNS解析： host, dig；
+                  显示路由表： lp route;
+                  追踪到达目标地址的网络路径： traceroute;
+                  使用mtr测试网络质量；
+                  
+
+
+
+
 
