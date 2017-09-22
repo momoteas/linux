@@ -28,4 +28,13 @@ linux默认权限和特殊权限：
       文件夹默认权限：777-umask;
       文件默认权限： 666-umask;
       使用umask 数字设置umask值；
+      特殊权限： 
+              suid：以文件的所属用户身份执行，而非执行文件的用户，例如：/bin/passwd文件；对于文件夹一般无效；
+              sgid：以文件所属组身份执行；对于文件夹：在该目录中创建的任意文件所属组与该目录的所属组相同；
+              sticky：对于文件夹：对目录拥有写入权限的用户仅可以删除其拥有的文件，无法删除其他用户拥有的文件；
+              设置特殊权限：
+                        设置suid: chmod u+s linuxcast;
+                        设置sgid: chmod g+s linuxcast;
+                        设置sticky: chmod o+t linuxcast;
+                        
       
