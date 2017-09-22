@@ -1,0 +1,9 @@
+IP地址中对应与子网掩码中为 “1“ 的部分为网络部分；
+
+MAC地址：用于同一个网络之内主机间的通信；（media access control）;它是固定在网卡上的地址；
+
+ARP：address resolution protocol，地址解析协议；它是同网段的通信协议；如果属于不同网段的地址，通过路由器中的路由表进行转发；
+
+域名：由三部分构成，以 “.” 分隔： 类型(com; net; org)，域名，主机名(www; mail; ftp)；
+
+
